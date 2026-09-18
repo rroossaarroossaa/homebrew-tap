@@ -1,6 +1,6 @@
 cask "veglia" do
-  version "0.3"
-  sha256 "6675f4c9e72598704125994cd5ef6f2af023cff8402404c9b06cb7241e9ea141"
+  version "0.4"
+  sha256 "1fd3b831d309a9afc93776b63895f28961b8673acd57832274a9c6461092309c"
 
   url "https://github.com/rroossaarroossaa/veglia/releases/download/v#{version}/Veglia.zip"
   name "Veglia"
