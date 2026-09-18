@@ -2,10 +2,10 @@ cask "veglia" do
   version "0.4"
   sha256 "1fd3b831d309a9afc93776b63895f28961b8673acd57832274a9c6461092309c"
 
-  url "https://github.com/rroossaarroossaa/veglia/releases/download/v#{version}/Veglia.zip"
+  url "https://github.com/rroossaarroossaa/Veglia/releases/download/v#{version}/Veglia.zip"
   name "Veglia"
   desc "Menu bar candle that prevents sleep while a coding agent is working"
-  homepage "https://github.com/rroossaarroossaa/veglia"
+  homepage "https://github.com/rroossaarroossaa/Veglia"
 
   depends_on macos: :ventura
 
