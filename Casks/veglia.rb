@@ -4,10 +4,10 @@ cask "veglia" do
 
   url "https://github.com/rroossaarroossaa/veglia/releases/download/v#{version}/Veglia.zip"
   name "Veglia"
-  desc "Menu bar candle that keeps the Mac awake while Claude Code or another coding agent is working"
+  desc "Menu bar candle that prevents sleep while a coding agent is working"
   homepage "https://github.com/rroossaarroossaa/veglia"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Veglia.app"
 
